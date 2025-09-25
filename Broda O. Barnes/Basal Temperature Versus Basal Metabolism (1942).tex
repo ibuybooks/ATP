@@ -1,0 +1,177 @@
+% !TeX program = lualatex
+\documentclass[10pt, letterpaper]{memoir}
+
+\usepackage{fontspec}
+\usepackage{lettrine}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{xfrac}
+\usepackage{hyperref}
+
+\setstocksize{11in}{8.5in}
+\settrimmedsize{11in}{8.5in}{*}
+\settypeblocksize{9.75in}{7.5in}{*}
+\setlrmarginsandblock{0.5in}{0.5in}{*}
+\setulmarginsandblock{0.75in}{0.5in}{*}
+\setlength{\headheight}{15pt}
+\setlength{\headsep}{25pt}
+\setlength{\footskip}{30pt}
+\setlength{\columnsep}{20pt}
+\checkandfixthelayout
+
+\hypersetup{
+    hidelinks,
+    pdftitle={Basal Temperature Versus Basal Metabolism},
+    pdfauthor={Broda O. Barnes}
+}
+
+\setmainfont{TeX Gyre Termes}
+\setsansfont[Scale=MatchLowercase]{TeX Gyre Heros}
+
+\makepagestyle{journal}
+
+\makeoddhead{journal}{\small\sffamily JOURNAL OF THE AMERICAN MEDICAL ASSOCIATION, AUG. 1, 1942}{}{\small\sffamily\thepage}
+\makeevenhead{journal}{\small\sffamily\thepage}{}{\small\sffamily JOURNAL OF THE AMERICAN MEDICAL ASSOCIATION, AUG. 1, 1942}
+\makeheadrule{journal}{\textwidth}{\normalrulethickness}
+
+\makeoddfoot{journal}{}{}{}
+\makeevenfoot{journal}{}{}{}
+
+\pagestyle{journal}
+
+\setlength{\topskip}{0pt}
+
+\newcommand{\sectiontitle}[1]{%
+    \section*{\sffamily\small\MakeUppercase{#1}}%
+}
+
+\begin{document}
+
+\begin{multicols}{2}
+
+\noindent
+\begin{minipage}[t]{\columnwidth}
+    \sffamily\small\textsc{Industrial Health --- Bristol}
+    \vspace{0.5ex}\par
+
+    \hrule height 1pt \kern 0.5ex \hrule height 1pt
+    \vspace{1.5em}\par
+
+    {\parbox{\linewidth}{\raggedright\sffamily\bfseries\fontsize{18}{18}\selectfont\MakeUppercase{Basal Temperature Versus Basal Metabolism}}\par}
+    \vspace{1.5em}\par
+
+    {\sffamily\large\textsc{Broda O. Barnes, M.D.}\par}
+    \vspace{0.4em}\par
+    {\sffamily\normalsize\itshape Denver, CO.\par}
+
+\end{minipage}%
+
+\vspace{2em}
+
+\lettrine[lines=3, findent=3pt, nindent=0pt]{B}{asal}
+temperature is defined here as the body temperature taken under conditions which are usually considered as necessary for determining basal metabolism. That is to say, the individual should have had a good night's rest, no food for twelve hours and no exercise or excitement. Unless the patient is in the hospital or the test is run in the home a true basal metabolic rate is not obtained, for the exercise of dressing and going to the laboratory will have an appreciable influence on the oxidative rate. The half hour or hour rest is a poor compromise for basal conditions. This is not the most serious criticism of the determinations of basal metabolism, however. Many more errors are made when the patient is unable to relax because of nervous tension. Although the normal person would not be excited by such an examination, the person needing such a test is not normal and many of them are unable to relax after repeated tests. A single example will illustrate what has repeatedly been observed:
+
+\begin{center}
+\begin{minipage}{0.95\columnwidth}
+\hspace*{1em}\small A freshman from the School of Commerce had been referred by the personnel office because of a failure in English and insubordination to one of the teachers. His physical examination and subnormal temperature left no doubt that his metabolism should be subnormal. During his first test it was obvious that he was not relaxed, although he did not move and the curve was fairly smooth. At the end of this test he was assured that the machine would not bite and was then told a funny story. A hearty laugh helped him to relax, and a second test was run within five minutes. The result of the original test figured +16\% and that of the second one -24\%.
+\end{minipage}
+\end{center}
+
+This is the most extreme case yet encountered but illustrates what happens repeatedly in the basal metabolism determination.
+
+Thus, nervous tension will also elevate the body
+temperature, as illustrated by the following case:
+
+\begin{center}
+\begin{minipage}{0.95\columnwidth}
+\hspace*{1em}\small A football player suspected of having hypothyroidism took his temperature before getting out of bed and found it to be 96.1\textdegree{}F. While he was resting in the laboratory for his metabolism test, a thermometer was again placed in his mouth for ten minutes, and it registered 96.4\textdegree{}F. A five-minute metabolism test was run and the temperature again taken. It was 96.9\textdegree{}F. Thus, without any exercise the excitement of the metabolism test was sufficient to raise the temperature 0.5 degree. The temperature at the end of the metabolism test was 0.8 degree higher than under basal conditions before arising.
+\end{minipage}
+\end{center}
+
+It has been known for many years that the basal metabolic rate goes up as the body temperature rises. Hence it seems obvious that the result of this metabolism test was higher than it should have been, although it was found to be -18\%.
+
+Because of these objections a search has been made for many years for a more accurate method of determining thyroid function. The blood cholesterol has been extensively used by some investigators but has been found useless in the present study. Since most of the present observations were carried out on college students, the failure of a correlation between metabolic rate and cholesterol content of the blood may be due to the age of the patient. Further work would be necessary to prove this point. The pulse rate has been suggested by some authors, but in college students many rapid pulses have slowed down on thyroid therapy. No single symptom has been found which would apply to every person with low metabolism. Some have fatigue, some have cutaneous disorders, some have dry skin, some have nervousness, some have menstrual difficulties, some have dry hair and some have other symptoms, but none of these signs could be considered reliable in all cases.
+
+In over 1,000 cases in which the basal metabolic rate has been found subnormal, the body temperature has never been found up to normal unless an infection was present. Often at the time of physical examination these highly excited patients may have oral temperatures of 99.0\textdegree{}F to 99.2\textdegree{}F. These patients, however, will tell you that their temperatures are usually subnormal and subsequent visits to the office, when they are not excited, confirm their reports. Thyroid therapy in this large group of cases of subnormal metabolic rates has without exception led to an elevation in body temperature. These clinical observations merely confirm what has been known experimentally for many years. The cretin rabbit, produced by total thyroidectomy, has a subnormal body temperature. The temperature goes up as thyroid is administered, and if the dosage is excessive the temperature goes above normal. That a similar effect is produced in the human being is illustrated by the following case:
+
+\begin{center}
+\begin{minipage}{0.95\columnwidth}
+\hspace*{1em}\small A physician's daughter was placed on a reducing diet for obesity and given 2 grains (0.13 Gm.) of thyroid daily for a subnormal basal metabolic rate and a low temperature. Two grains was adequate to maintain a normal temperature. She foolishly thought she would hasten the loss of weight and for two weeks took 7 grains (0.45 Gm.) of thyroid daily. (She gained 2 pounds [0.9 Kg.].) The typical symptoms of hyperthyroidism developed, and her temperature was 0.6 degree above normal. Her symptoms and elevated temperature promptly subsided when the dose was reduced to 2 grains.
+\end{minipage}
+\end{center}
+
+It is well established clinically that the hyperthyroid patient has an elevated body temperature. Thus, it appears from the experimental data and from clinical observations that body temperature might serve as an index of thyroid activity in hypothyroidism.
+
+There is considerable disagreement in the literature as to whether all patients with low metabolic rates are hypothyroid. There is no doubt that starvation will lower the metabolic rate. This must be taken into consideration when malnutrition is so prevalent even in our own country. The extreme effect of starvation on metabolism is illustrated by Benedict's patient,\footnote{Du Bois, E. F.: Basal Metabolism in Health and Disease, Philadelphia, Lea \& Febiger, 1927.} who fasted thirty-one days. The metabolism fell 30\%. It is interesting to note that the body temperature remained relatively constant during this entire period. Hence it seems that body temperature might well distinguish between cases of inanition and those of true hypothyroidism. Other instances in which the metabolic rate goes down have not been followed, but at present it seems that the body temperature can be safely used.
+
+The present group includes some patients with neurasthenia, chronic nervous exhaustion, arthritis and other diseases which are not generally considered to occur with hypothyroidism. The initial low temperature and the improvement seen when the temperature is elevated by thyroid therapy indicate that further work should be done in this field. No attempt will be made at present to decide whether or not these patients are hypothyroid. Very few patients with subnormal temperature fail to respond to thyroid therapy, both as to relief of symptoms and as to elevation in temperatures. Kleitman's observations\footnote{Kleitman, Nathaniel: Sleep and Wakefulness, Chicago, University of Chicago Press, 1939.} that efficiency parallels diurnal variations in body temperature indicate that further studies should be done in this field. Preliminary observations indicate that the person with subnormal body temperature is perceptibly improved in his performance, whether in industry, in the class-room or on the athletic field, by bringing his body temperature up to normal.
+
+Another group of cases in which body temperature would be useful is illustrated by the following:
+
+\begin{center}
+\begin{minipage}{0.95\columnwidth}
+\hspace*{1em}\small A woman aged 22 had been very nervous and underweight for several years. She suffered from palpitation of the heart, had a pulse rate of 110, blood pressure of 155 systolic and 100 diastolic, a fine tremor of the hands and hyperactive reflexes. Prior to entrance in the university her basal metabolic rate was +18\%, and she had been advised to have a thyroidectomy. She had refused the operation. Her body temperature was 97.6\textdegree{}F. The basal metabolic rate was found to be +8\%. The curve was smooth, but observations during the test left no doubt that she was not relaxed. She was given phenobarbital, $\sfrac{1}{2}$ grain (0.03 Gm.) three times a day for one week and the metabolic rate was then found to be -8\%. She was started on thyroid therapy $\sfrac{1}{2}$ grain daily and seen at weekly intervals. The dose was gradually increased to 2 grains (0.13 Gm.) daily. Over a period of sixty days the blood pressure gradually fell to 115 systolic and 85 diastolic, the pulse rate came down to 84 and the hyperactive reflexes became normal. The body temperature gradually rose. The nervousness and tremor of the hands improved.
+\end{minipage}
+\end{center}
+
+The therapeutic results would leave no doubt in the mind of the physician or the patient that what had appeared to be a classic hyperthyroid syndrome was in reality hypothyroid in causation. The body temperature was the only criterion on which a correct diagnosis might have been made.
+
+That such cases are not rare is indicated by 6 additional cases that I have observed during the past twelve months. In 5 of these an operation had been performed, and the subsequent history left no doubt of a mistaken diagnosis. In the other case, operation was delayed by a consultant surgeon who preferred to wait a year if possible because of the patient's age. The high metabolic rate observed in each case can be explained on the basis of nervous tension and inability to relax. The rapid pulse can be explained in some cases by a tendency for the circulation to collapse as a result of fatigue or exhaustion. The extreme of this is seen in surgical shock, in which circulatory collapse occurs resulting in the rapid, feeble pulse. In some cases the extreme nervousness resulting from chronic fatigue gives an elevated pulse rate and a pseudohypertension similar to that seen in the case illustrated. The low body temperature is incompatible with hyperthyroidism experimentally or clinically, and hence its use would have avoided the wrong diagnosis, the operation and the resultant aggravation of symptoms.
+
+No serious objection to the use of body temperature as an indication for thyroid dosage has been raised in numerous conferences with competent physicians and physiologists. It seems unlikely that one could do damage to the heart or other organs with thyroid unless the body temperature goes above normal. However, no patients with organic heart disease have been treated in spite of subnormal body temperatures, since the circulation load in hypothyroidism is definitely lighter than in the normal person. This well known fact has led to total thyroidectomy for congestive heart failure. Hence, it seems unwise to increase the load of a damaged organ. No evidence has been encountered, however, to indicate that the normal heart is damaged by raising the body temperature to normal. On the other hand, the benefits derived by normal circulation seem to outweigh any theoretic damage to the normal heart.
+
+The procedure followed at present for the diagnosis of subnormal body temperature is as follows: The patient places a thermometer and book by his bedside. When he awakens in the morning the thermometer is left in the mouth without interruption for ten minutes by the clock (the use of the book is obvious). It will be found that in the absence of a cold or other infection the daily variation in one's temperature is comparatively slight. The menstrual cycle causes about 1 degree variation with the low point at the time of ovulation and a gradual rise to a peak occurring a day or two before menstruation.\footnote{Rubenstein, B. B.: The Relation of Cyclic Change in Human Vaginal Smears to Body Temperatures and Basal Metabolic Rates, \textit{Am. J. Physiol.} 119: 635 (July) 1937.} It will be necessary to determine the basal temperature in a large number of cases before setting a standard. Hence, the tentative standard set here may be modified slightly by more data, but it will serve as a safe working range for the present. It is based on observations on patients without symptoms as well as on patients with symptoms which were relieved by adequate doses of thyroid over long periods. For the male the basal temperature seems to be near 98.0\textdegree{}F. For the female the average for the entire period has been found to be about 98.0\textdegree{}F with the low point at the time of ovulation at 97.5\textdegree{}F and the peak near 98.5\textdegree{}F.
+
+When the subnormal temperature is elevated with thyroid therapy, few unpleasant symptoms are experienced if the dosage is increased gradually. It has been found that most patients will tolerate 1 grain (0.065 Gm.) of U.S.P. thyroid\footnote{Armour's has been used exclusively in this series.} as an initial dose. The entire dose is taken at breakfast time solely to form the habit and avoid divided doses later in the day. The initial dose is continued for four weeks and the basal temperature rechecked for two or three mornings. If the temperature is still subnormal, the dosage is raised 1 grain and continued for another four weeks. The basal temperature is again checked, and a third grain added if necessary. This is the maximum dose used in this series of 1,000 patients, and the majority have had normal temperatures within six months. Patients will be encountered requiring more, but if the dose is raised gradually, as here outlined, and the temperature followed closely at monthly intervals, probably no great harm will be done. The patient usually asks how long he must continue therapy. It is significant that the first patient given thyroid began in 1891 and stopped in 1919, when she died at the age of 74. (It is also historically noteworthy that Dr. Murray\footnote{Murray, G. R.: The Life History of the First Case of Myxedema Treated by Thyroid Extract, \textit{Brit. M. J.} 1:359 (March 13) 1920.} observed in this case a subnormal temperature of 95.6\textdegree{}F to 97.2\textdegree{}F, and that on thyroid therapy the temperature rose to 98.2\textdegree{}F.) The medication can be stopped when the patient's requirement is reduced to meet the capacity of his own thyroid gland. There is a gradual reduction in requirement with advancing years. A safe procedure would seem to be to continue the dosage required to maintain a normal temperature for one year. An attempt might then be made to decrease the dose by 1 grain for sixty days. By this time the gland should pick up the deficiency if it is capable of meeting the emergency. If the temperature is found subnormal at that time and symptoms have recurred, it would seem worthwhile continuing the former dose for another year. Yearly reduction of 1 grain under these circumstances should avoid any unpleasant reactions. It is well to advise the patient on his first visit at the time he is concerned about his symptoms that his medication may have to be continued for many years. Otherwise, he is likely to improve, become careless about taking his thyroid and develop new symptoms different from those previously experienced, and as a result he may change physicians. It is well to have the patient report his basal temperature, at least by telephone, once each month; by so doing he is far more likely to continue his therapy. The physician likewise is reassured that the dosage is not excessive. The routine taking of temperatures in an active practice reveals many that are subnormal. The etiology of this large group is now under investigation, and apparently a simple explanation can account for them.
+
+\begin{center}
+    SUMMARY
+\end{center}
+
+\begin{enumerate}[leftmargin=*]
+    \item From a study of over 1,000 cases the results indicate that subnormal body temperature is a better index for thyroid therapy than the basal metabolic rate.
+    \item The differential diagnosis between hypothyroidism and hyperthyroidism is sometimes difficult. In 7 cases reported the diagnosis was wrong, in 5 of which an operation had been performed. The temperature was subnormal in each case.
+\end{enumerate}
+
+\begin{center}
+   \noindent\rule{0.5\columnwidth}{1pt} 
+\end{center}
+
+\noindent%
+\begin{minipage}[t]{\columnwidth}
+    \vspace{0.25em}\par
+    {\parbox{\linewidth}{\raggedright\sffamily\bfseries\fontsize{18}{18}\selectfont\MakeUppercase{REPORT ON ACUTE ILLNESS AMONG RURAL MATTRESS MAKERS USING LOW GRADE, STAINED COTTON}}\par}
+    \vspace{1.5em}\par
+
+    {\sffamily\large\textsc{Paul A. Neal, M.D., Roy Schneiter, M.S., and Barbara H. Caminita, B.S.}\par}
+    \vspace{0.4em}\par
+    {\sffamily\normalsize\itshape Bethesda, MD.\par}
+
+    \vspace{1.5em}\par
+\end{minipage}
+
+This report deals with an acute illness among workers in rural mattress making projects using low grade cotton. The history of the outbreaks of illness, distribution of cases, estimated number of persons involved, nature of the illness and description of the investigations undertaken to determine the cause of the illness are presented.
+
+Numerous reports of sudden outbreaks of acute illness occurring among workers on rural mattress making projects were received by the U. S. Public Health Service throughout the period from March to December 1941. Outbreaks of a similar illness were also reported in one cotton mill and in several cottonseed processing plants. Illness invariably followed the use of a very low grade, dusty, stained cotton of the 1940 crop. The rural mattress making projects, sponsored by the U.S. Department of Agriculture, were part of a program designed to reduce the cotton surplus and to benefit farm families. Rural families in the low income groups who wished to make mattresses for home use were supplied with 50 pounds of cotton and 10 yards of cotton ticking for each mattress. Participating families in a community made their mattresses cooperatively at the same work center. Contact with the cotton was limited to the time allowed each family to make its quota of mattresses.
+
+The mattress making procedure involved opening bales, fluffing or carding the cotton, filling and closing the mattresses and beating the mattresses to secure uniformity of surface. All of these operations were extremely dusty when the low grade, stained cotton was used. Illness occurred among workers exposed to high dust concentrations, and the severity of the illness varied with the degree of exposure.
+
+Illness began from one to six hours after work was begun. Initial symptoms were fatigue and generalized aches, followed by anorexia, headache, nausea and vomiting, the latter lasting six to nine hours in some cases. About six hours after exposure a sense of chilliness supervened, followed usually by frank chills, fever and headache. In several patients an oral temperature in excess of 102\textdegree{}F was noted. Anorexia and nausea extended beyond the acute phase. Fatigue and generalized aches lasted from forty-eight hours to four or five days. Many complained of abdominal pain or cramps and of substernal discomfort or pressure, varying in intensity and duration, so that the person was unable to take a deep breath. Neither age nor sex seemed to influence the incidence of the disease.
+
+These mattress making projects have been in operation since February 1940, but no outbreak of illness was reported prior to March 1941. According to information supplied by Mrs. Ola Powell Malcolm of the extension service of the U. S. Department of Agriculture, there were 2,832,885 families engaged on rural mattress making projects in forty-six states during 1941. During the years 1940 and 1941 a total of 3,944,456 mattresses and 1,119,376 comforters, using 500,000 bales of cotton, were made in rural mattress making centers. Twenty-five states reported scattered outbreaks of illness in the course of these projects. The actual number of cases of this illness occurring during the year 1941 cannot be determined. However, it is known that there were many more than 700 cases in one state alone.
+
+On receipt of the first reports of illness all state health departments were requested to submit (a) reports on cases of illness among workers in low grade cotton, (b) samples of cotton incriminated in the outbreak and whenever possible (c) nose and throat swabs and blood specimens for examination. The majority of the mattress making projects were located in relatively inaccessible rural districts, so that it was impossible to obtain the desired information and samples immediately after the occurrence of an outbreak. It was recommended to officials of the U.S. Department of Agriculture that gauze masks be worn by persons exposed to the cotton dust until the low grade, stained cotton could be replaced. Outbreaks of illness did not occur among workers when these recommendations were adopted.
+
+\begin{center}
+    INVESTIGATION INTO CAUSE OF OUTBREAKS
+\end{center}
+
+The following samples of cotton and cotton dust
+were received from thirteen states:
+
+Fifty-eight samples of low grade cotton collected from
+projects in the course of which illnesses had been reported.
+
+\end{multicols}
+\end{document}
