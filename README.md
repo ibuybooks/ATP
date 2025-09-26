@@ -1,2 +1,5 @@
-# library
-A Bioenergetic Alexandria of Sorts
+# ⌬ ATP: Archive→Typeset→Preserve
+
+*Knowledge is the powerhouse of yourself.*
+
+An Open-Source Bioenergetic Library. Coming Soon.
